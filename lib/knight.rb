@@ -2,6 +2,9 @@
 
 # Class for the knight
 class Knight
-  def initialize(location)
-    @location = location
+  attr_reader :square
+
+  def initialize(square)
+    @square = square
+  end
 end
